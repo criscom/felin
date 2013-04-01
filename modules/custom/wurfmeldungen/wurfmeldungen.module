@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Wurfmeldungen feature.
+ */
+
+include_once('wurfmeldungen.features.inc');

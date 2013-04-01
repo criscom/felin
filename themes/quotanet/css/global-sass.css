@@ -1,0 +1,53 @@
+@import url(global.css);
+/* SASS quotanet.at main style sheet by EINSTERN February 2012 - globals.css will be imported into global-sass.sass */
+/* File created by the magnificent criscom on 01/04/2013 */
+/* line 6, ../sass/global-sass.sass */
+.block-masquerade {
+  margin-top: 15px;
+  background-color: #444444;
+  margin: 15px 0px 0px -6px;
+  width: 942px;
+  padding: 5px;
+}
+/* line 13, ../sass/global-sass.sass */
+.block-masquerade h2 {
+  margin-bottom: 5px;
+}
+
+/* line 16, ../sass/global-sass.sass */
+.user-profile.view-mode-full h3 {
+  margin-top: 15px;
+  font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+}
+
+/* line 20, ../sass/global-sass.sass */
+body.page-user div.tabs ul.tabs.secondary {
+  width: 383px;
+}
+
+/* line 23, ../sass/global-sass.sass */
+body.page-user fieldset#edit-locale {
+  display: none;
+}
+
+/* line 28, ../sass/global-sass.sass */
+#search-block-form {
+  margin-top: 6px;
+}
+
+/* line 31, ../sass/global-sass.sass */
+input#edit-search-block-form--2 {
+  border: 1px solid #444444;
+  border-right: none;
+  height: 31px;
+  margin-right: 0px;
+  padding-right: 0px;
+}
+
+/* line 38, ../sass/global-sass.sass */
+input.custom-search-button {
+  border: 1px solid #444444;
+  border-left: none;
+  margin-left: -5px;
+  padding-left: 0px;
+}

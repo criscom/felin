@@ -1,0 +1,353 @@
+/* quotanet.at main style sheet by EINSTERN February 2012 */
+
+/* This file will hold the main styles for your website. */
+
+body {
+	background: #110e00 url('../images/body_bg.jpg');
+	background-repeat: repeat-x;
+	background-position: center top;
+}
+
+#zone-branding #region-branding{
+	padding: 0;
+	margin: 0;
+
+}
+
+#zone-header {
+	background: #fff url('../images/breadcrumb.png') no-repeat left top;
+	height: 45px;
+	width: 960px;
+	padding: 0;
+
+}
+/*
+.site-name-slogan h1.site-name,
+.site-name-slogan h2.site-name {
+	font-size: 0px;
+	text-indent: -50000px;
+	height: 0;
+}
+
+.site-name-slogan {
+	height: 0;
+	
+	}
+*/
+
+#section-content {
+	margin-top: -1px;
+}
+
+h1#page-title, h2 {
+	color: #b1b3b4;
+	font-size: 1.6em;
+	font-family: Verdana;
+	font-weight: normal;
+}
+
+#zone-content {
+	background: #fff url('../images/context_bg.png');
+	background-repeat: repeat-y;
+	background-position: left top;
+
+}
+
+#block-delta-blocks-breadcrumb .content 
+{
+	padding: 10px 0 0 13px;
+}
+
+.breadcrumb {
+	padding: 0;
+	margin: 0;
+}
+
+#region-header-fourth {
+	width: 260px;
+}
+
+#block-search-form .block-inner .content {
+	padding: 10px 0 0 40px;
+}
+
+#block-node-syndicate {
+	float: right;
+}
+
+#block-node-syndicate .block-inner .content {
+	padding: 10px 0 0 0;
+}
+
+/* @group MAIN MENU FROM BARTIK THEME */
+
+
+
+	/* --------------- Main Menu ------------ */
+
+
+	/* Gehirn / Brain */
+	
+
+	#block-system-main-menu ul,
+	#block-system-main-menu ol {
+	}
+
+
+
+	#block-system-main-menu a {
+		color: #d9d9d9;
+		padding: 0.6em 1em 0.4em;
+	}
+	#block-system-main-menu {
+		font-size: 0.929em;
+		margin: 5px 0 0 0;
+		padding: 0 15px;
+	}
+	#block-system-main-menu li {
+		/*float: left;*/ /* LTR */
+		list-style: none;
+		
+	}
+	
+	#block-system-main-menu .block-inner .content ul.menu li a {
+		display: block;
+		color: #333;
+		padding: 0 0.8em;
+		text-decoration: none;
+		/*background: #ccc;
+		background: rgba(255, 255, 255, 0.7);*/
+		/*float: left;*/ /* LTR */
+		/*height: 2.4em;
+		line-height: 2.4em;*/
+		/*text-shadow: 0 1px #eee;
+		-khtml-border-radius-topleft: 8px;
+		-khtml-border-radius-topright: 8px;
+		-moz-border-radius-topleft: 8px;
+		-moz-border-radius-topright: 8px;
+		-webkit-border-top-left-radius: 8px;
+		-webkit-border-top-right-radius: 8px;
+		border-top-left-radius: 8px;
+		border-top-right-radius: 8px;*/
+	}
+	
+/*	#block-system-main-menu .block-inner .content ul.menu li a:hover,
+	#block-system-main-menu .block-inner .content ul.menu li a:focus 
+	{
+		background: #f6f6f2;
+		background: rgba(255, 255, 255, 0.95);
+	}
+	#block-system-main-menu .block-inner .content ul.menu li a:active {
+		background: #b3b3b3;
+		background: rgba(255, 255, 255, 1);
+	}
+	
+	#block-system-main-menu .block-inner .content ul.menu li.active-trail a {
+			padding-left: 20px;
+			background-image: url('../images/linkbutton.jpg');
+			background-repeat: no-repeat;
+			background-position: 0 50%;
+	
+		}*/
+	
+	#block-system-main-menu .block-inner .content ul.menu li.collapsed {
+		padding: 5px;
+	}
+	
+	#block-system-main-menu .block-inner .content ul.menu li ul li /* Untermenüs, Submenüs */
+	{
+		padding-left: 20px;
+	}
+	
+	#block-system-main-menu .block-inner .content ul.menu li.active-trail a.active-trail {
+		padding-left: 15px;
+		background-image: url('../images/linkbutton.jpg');
+		background-repeat: no-repeat;
+		background-position: 0 50%;
+		color: #000;
+		font-weight: bold;
+
+	}
+	
+	#block-system-main-menu .block-inner .content ul.menu li.active-trail ul li.active-trail a.active-trail {
+			padding-left: 15px;
+			background-image: url('../images/linkbutton.jpg');
+			background-repeat: no-repeat;
+			background-position: 0 50%;
+			color: #000;
+			font-weight: bold;
+	
+		}
+	
+	#block-system-main-menu .block-inner .content ul.menu li.active-trail ul li a 
+	{
+		padding-left: 15px;
+	}
+
+	
+	.featured #block-system-main-menu-links li a:active,
+	.featured #block-system-main-menu-links li a.active {
+		background: #f0f0f0;
+		background: rgba(240, 240, 240, 1.0);
+	}
+
+
+	/* @end */
+	
+	/* @group Sidbar Right - Q Netzwerk und Tagcloud */
+	
+	#region-sidebar-second {
+		background-image: url('../images/netzwerk-box.png');
+		background-position: 0 0;
+		background-repeat: no-repeat;	
+		min-height: 495px;
+		padding-left: 0;
+		margin-left: 0;
+		
+	}
+	
+	#region-sidebar-second #block-block-1 {
+		margin-top: 60px;
+	}
+	
+	#region-sidebar-second #block-block-1 .block-inner .content {
+		margin-left: 45px;
+	}
+	
+	#region-sidebar-second #block-block-1 .block-inner .content div div.einloggen,
+	#region-sidebar-second #block-block-1 .block-inner .content div div.strict {
+		float: left;
+	}
+	
+	#region-sidebar-second #block-block-1 .block-inner .content div div a {
+		color: black;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: .8em;
+		font-stretch: -0.2em;
+	}
+	
+	#region-sidebar-second #block-block-1 .block-inner .content div div.einloggen a {
+		padding-right: 5px;
+	}
+	
+	#region-sidebar-second #block-block-1 .block-inner .content div div.registrieren a {
+		padding-left: 5px;
+	}
+	
+	#region-sidebar-second #block-tagadelic-1 {
+		margin: 20px 5px 0 5px;
+		padding: 5px;
+		background-color: white;
+	}
+	
+	#region-sidebar-second #block-tagadelic-1 a {
+		color: black;
+		text-decoration: none;
+	}
+	
+	/* @end */
+	
+	/* @group Postscript Zone - Aktuelles im Footer */
+	
+	#zone-postscript-wrapper #zone-postscript {
+		background-image: url('../images/postscript.png');
+		background-position: 0 0;
+		background-repeat: repeat-y;
+		
+	}
+	
+	#zone-postscript-wrapper #zone-postscript .region-postscript-first #block-menu-block-1 {
+		padding: 10px 0 0 15px;
+	}
+	
+	#zone-postscript-wrapper #zone-postscript .region-postscript-first  ul.menu li {
+		list-style: none;
+	}
+	
+	#zone-postscript-wrapper #zone-postscript .region-postscript-first  h2.block-title {
+		text-decoration: none;
+		color: white;
+		font-family: Verdana;
+		font-size: 12px;
+		padding-left: 5px;
+	}
+	
+	#zone-postscript-wrapper #zone-postscript .region-postscript-first  ul.menu li a {
+		text-decoration: none;
+		color: white;
+	}
+	
+	#zone-postscript-wrapper #zone-postscript .region-postscript-first  ul.menu li.active-trail a.active {
+		color: #d4b700;
+	}
+	
+	#zone-postscript-wrapper #zone-postscript .region-postscript-second .region-inner {
+		padding-top: 10px;
+	}
+
+	#zone-postscript-wrapper #zone-postscript .region-postscript-second #block-views-news-block-2 div div div div table.cols-3
+	{
+		border: 0;
+	}	
+	
+	#zone-postscript-wrapper #zone-postscript .region-postscript-second #block-views-news-block-2 div div div div table.cols-3 tbody tr td {
+		
+		width: 30%;
+		color: white;
+		font-size: 11px;
+	}
+	
+	
+	#zone-postscript-wrapper #zone-postscript .region-postscript-second #block-views-news-block-2 div div div div table.cols-3 tbody tr td .views-field a
+	{
+		color: white;
+		text-decoration: none;
+		font-weight: bold;
+		font-size: 12px;
+	}
+	
+	#zone-postscript-wrapper #zone-postscript .region-postscript-second #block-views-news-block-2 div div div div table.cols-3 tbody tr td .views-field p {
+		margin-bottom: 5px;
+	}
+	
+	#zone-postscript-wrapper #zone-postscript .region-postscript-second #block-views-news-block-2 div div div div table.cols-3 tbody tr td .views-field-view-node a {
+		display: block;
+		background-image: url('../images/arrow.png');
+		background-repeat: no-repeat;
+		background-position: 0 50%;
+		text-indent: -50000px;
+		font-size: 0px;
+		height: 13px;
+	
+	}
+	
+	/* @end */
+	
+	/* @group Footer */
+	
+	#zone-footer-wrapper #zone-footer	
+	{
+		background-image: url('../images/footer.png');
+		background-position: 0 0;
+		background-repeat: no-repeat;
+		height: 70px;
+	}
+	
+	#zone-footer-wrapper #zone-footer #region-footer-first div div .block-inner .content
+	{
+		padding-top: 37px;
+	}
+	
+	#zone-footer-wrapper #zone-footer #region-footer-first div div .block-inner .content ul li {
+		display: inline;
+		list-style: none;
+	}
+	
+	#zone-footer-wrapper #zone-footer #region-footer-first div div .block-inner .content ul li a {
+		text-transform: uppercase;
+		text-decoration: none;
+		color: black;
+	}
+	
+	/* @end */
