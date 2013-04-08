@@ -549,6 +549,7 @@ tr.odd:hover td.active
 	
 	
 	.views-row .node-news,
+	.views-row .node-team,
 	body.page-taxonomy-term article.node
 	{
 		margin-bottom: 20px;

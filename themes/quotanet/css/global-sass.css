@@ -51,3 +51,22 @@ input.custom-search-button {
   margin-left: -5px;
   padding-left: 0px;
 }
+
+/* line 46, ../sass/global-sass.sass */
+.node-team .field-name-title div div h2 {
+  font-size: 1.125em;
+  color: #c9a900;
+  line-height: 1.25em;
+}
+
+/* line 51, ../sass/global-sass.sass */
+.view-team .ds-2col > .group-left {
+  width: 49%;
+  margin-right: 1%;
+}
+
+/* line 55, ../sass/global-sass.sass */
+.field-name-field-vereinsfunktion {
+  font-size: 0.75em;
+  font-weight: bold;
+}
