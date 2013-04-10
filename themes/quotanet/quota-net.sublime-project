@@ -3,6 +3,12 @@
 	[
 		{
 			"path": "/Applications/MAMP/htdocs/quota-net.at/sites/all/themes/quotanet"
+		},
+		{
+			"path": "/Applications/MAMP/htdocs/potzinger.at"
+		},
+		{
+			"path": "/Applications/MAMP/htdocs/wohnservice"
 		}
 	]
 }
