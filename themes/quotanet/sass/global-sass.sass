@@ -3,6 +3,10 @@
 
 @import global.css
 
+$grey: #b1b3b4
+$yellow: #c9a900
+$lightyellow: #ebdf9d
+
 .block-masquerade
 	margin-top: 15px
 	background-color: #444
@@ -55,3 +59,55 @@ input.custom-search-button
 .field-name-field-vereinsfunktion
 	font-size: .75em
 	font-weight: bold
+
+// LOGIN form ==> /mitglieder 29.05.2013
+
+ul.primary li a
+	background-color: $yellow
+	&:link, &:visited
+		color: white
+	&:hover
+		color: $grey
+		background-color: $lightyellow
+
+	&.active
+		color: black
+
+#user-login div div,
+#edit-account div 
+	label
+		font-size: 0.9em // 14px
+		margin-bottom: 5px 
+	.description
+		font-size: 0.8em // 13px
+
+.user-profile h3
+	font-size: 1.1em
+
+#block-block-2
+	margin-top: 5px // Space between Anmeldebereich: Noch keine Zugangsdaten? und Anmelden-Button
+	border-top: 1px solid #ccc
+
+	.block-inner
+		margin-top: 10px 
+
+		h2
+			margin-bottom: 5px
+
+// Mitgliederprofile
+
+.view-benutzerprofile 
+	.view-header
+		margin-bottom: 20px
+
+	table tbody tr td
+		padding: 10px
+
+		.views-field-pid
+			font-size: .75em
+
+		.views-field-rendered-entity
+			padding: 10px 0
+
+			.views-label
+				font-size: 0.9em
