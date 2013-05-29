@@ -306,7 +306,7 @@ div.status, table tr.ok
 	/* @group Sidbar Right - Q Netzwerk und Tagcloud */
 	
 	#region-sidebar-second {
-		background-image: url('../images/netzwerk-box.png');
+		background-image: url('../images/netzwerk-box.jpg');
 		background-position: 0 0;
 		background-repeat: no-repeat;	
 		min-height: 495px;

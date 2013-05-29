@@ -1,0 +1,12 @@
+<?php
+
+/**
+ * @file
+ * custom module by criscom 28.05.2013
+ */
+
+/* Disable Registration Tab on /mitglieder */
+
+ function criscom_menu_alter(&$items) {
+ 	unset($items['mitglieder/register']);
+ }
