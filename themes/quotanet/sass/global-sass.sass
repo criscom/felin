@@ -94,7 +94,15 @@ ul.primary li a
 		h2
 			margin-bottom: 5px
 
+// Benutzeransicht /user
+
+
 // Mitgliederprofile
+
+.mitgliederprofil-links
+	
+	margin-top: 5px
+	
 
 .view-benutzerprofile 
 	.view-header
@@ -111,3 +119,89 @@ ul.primary li a
 
 			.views-label
 				font-size: 0.9em
+
+#user-profile-form /* Profile 2 Ihr Profil Eingabefelder in der Größe anpassen */
+	.form-textarea-wrapper 
+		textarea, .grippie
+			width: 57%
+	
+	.container-inline-date .date-padding
+		padding: 0
+
+
+span.fieldset-legend /* Profile 2 Ihr Profil Geburtsdatum fett */
+	font-weight: bold
+
+.form-item-profile-ihr-profil-field-upload-foto-und-0 /* Profile 2 Ihr Profil Link neben dem Foto kleiner setzen */
+	a, span.file-size
+		font-size: 0.6em
+
+#edit-profile-ihr-profil-field-upload-foto-und-0-remove-button /* Profile 2 Ihr Profil Links Entfernen Button unter den Foto Link setzen */
+	position: absolute !important
+	margin-top: 10px
+
+// Pager
+
+.item-list .pager
+	margin-bottom: 20px
+
+ul.pager
+	text-align: center
+	width: 95%
+	margin-left: auto
+	margin-right: auto
+	border-radius: 0
+	-moz-border-radius: 0
+	-webkit-border-radius: 0
+	height: 20px
+	background-color: $yellow
+	color: #fff
+	border: none
+
+	.pager-first, .pager-last
+		display: none
+
+	.pager-next
+		background-color: none
+		border: none
+		left: 440px
+		margin-top: 3px
+
+		
+		a
+			display: block
+			height: 13px
+			width: 12px
+			background-image: url(../images/arrow.png)
+			background-repeat: no-repeat	
+
+
+	.pager-previous
+		position: absolute
+		background-color: none
+		border: none
+		left: -15px
+		margin-top: 3px
+
+		a
+			display: block
+			height: 13px
+			width: 12px
+			background-image: url(../images/arrow-left.png)
+			background-repeat: no-repeat		
+
+	.pager-item, .pager-current
+		float: none
+		border: 0
+		-moz-border-radius: 0
+		-webkit-border-radius: 0
+		border-radius: 0
+		background: 0
+		padding: 3px 8px 2px 8px
+
+	.pager-item a, .pager-current a
+		background: none
+		color: #fff
+		border: 0
+		text-decoration: underline
+		padding: 3px 8px 2px 8px

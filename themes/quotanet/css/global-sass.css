@@ -99,6 +99,10 @@ ul.primary li a.active {
   margin-bottom: 5px;
 }
 
+.mitgliederprofil-links {
+  margin-top: 5px;
+}
+
 .view-benutzerprofile .view-header {
   margin-bottom: 20px;
 }
@@ -113,4 +117,88 @@ ul.primary li a.active {
 }
 .view-benutzerprofile table tbody tr td .views-field-rendered-entity .views-label {
   font-size: 0.9em;
+}
+
+#user-profile-form .form-textarea-wrapper textarea, #user-profile-form .form-textarea-wrapper .grippie {
+  width: 57%;
+}
+#user-profile-form .container-inline-date .date-padding {
+  padding: 0;
+}
+
+span.fieldset-legend {
+  font-weight: bold;
+}
+
+.form-item-profile-ihr-profil-field-upload-foto-und-0 a, .form-item-profile-ihr-profil-field-upload-foto-und-0 span.file-size {
+  font-size: 0.6em;
+}
+
+#edit-profile-ihr-profil-field-upload-foto-und-0-remove-button {
+  position: absolute !important;
+  margin-top: 10px;
+}
+
+.item-list .pager {
+  margin-bottom: 20px;
+}
+
+ul.pager {
+  text-align: center;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  height: 20px;
+  background-color: #c9a900;
+  color: white;
+  border: none;
+}
+ul.pager .pager-first, ul.pager .pager-last {
+  display: none;
+}
+ul.pager .pager-next {
+  background-color: none;
+  border: none;
+  left: 440px;
+  margin-top: 3px;
+}
+ul.pager .pager-next a {
+  display: block;
+  height: 13px;
+  width: 12px;
+  background-image: url(../images/arrow.png);
+  background-repeat: no-repeat;
+}
+ul.pager .pager-previous {
+  position: absolute;
+  background-color: none;
+  border: none;
+  left: -15px;
+  margin-top: 3px;
+}
+ul.pager .pager-previous a {
+  display: block;
+  height: 13px;
+  width: 12px;
+  background-image: url(../images/arrow-left.png);
+  background-repeat: no-repeat;
+}
+ul.pager .pager-item, ul.pager .pager-current {
+  float: none;
+  border: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  background: 0;
+  padding: 3px 8px 2px 8px;
+}
+ul.pager .pager-item a, ul.pager .pager-current a {
+  background: none;
+  color: white;
+  border: 0;
+  text-decoration: underline;
+  padding: 3px 8px 2px 8px;
 }

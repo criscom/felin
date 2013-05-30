@@ -189,6 +189,7 @@ div.status, table tr.ok
 
 
 	/* --------------- Main Menu ------------ */
+	/* --------------- Mitgliederbereich Menü --------------- */
 
 
 	/* Gehirn / Brain */
@@ -200,22 +201,31 @@ div.status, table tr.ok
 
 
 
-	#block-system-main-menu a {
+	#block-system-main-menu a,
+	#block-menu-menu-mitgliederbereich a
+	 {
 		color: #d9d9d9;
 		padding: 0.6em 1em 0.4em;
 	}
-	#block-system-main-menu {
+	#block-system-main-menu,
+	#block-menu-menu-mitgliederbereich
+	{
 		font-size: 0.75em;
 		margin: 5px 0 0 0;
 		padding: 0 15px;
 	}
-	#block-system-main-menu li {
+	#block-system-main-menu li,
+	#block-menu-menu-mitgliederbereich li
+	 {
 		/*float: left;*/ /* LTR */
 		list-style: none;
 		
 	}
 	
-	#block-system-main-menu .block-inner .content ul.menu li a {
+	#block-system-main-menu .block-inner .content ul.menu li a,
+	#block-menu-menu-mitgliederbereich .block-inner .content ul.menu li a
+
+	 {
 		display: block;
 		color: #333;
 		padding: 0 0.8em;
@@ -258,16 +268,23 @@ div.status, table tr.ok
 		}*/
 	
 	#block-system-main-menu .block-inner .content ul.menu li.leaf,
-	#block-system-main-menu .block-inner .content ul.menu li.collapsed {
+	#block-system-main-menu .block-inner .content ul.menu li.collapsed,
+	#block-menu-menu-mitgliederbereich .block-inner .content ul.menu li.leaf,
+	#block-menu-menu-mitgliederbereich .block-inner .content ul.menu li.collapsed
+
+	 {
 		padding: 5px;
 	}
 	
-	#block-system-main-menu .block-inner .content ul.menu li ul li /* Untermenüs, Submenüs */
+	#block-system-main-menu .block-inner .content ul.menu li ul li, /* Untermenüs, Submenüs */
+	#block-menu-menu-mitgliederbereich .block-inner .content ul.menu li ul li 
 	{
 		padding-left: 20px;
 	}
 	
-	#block-system-main-menu .block-inner .content ul.menu li.active-trail a.active-trail {
+	#block-system-main-menu .block-inner .content ul.menu li.active-trail a.active-trail,
+	#block-menu-menu-mitgliederbereich .block-inner .content ul.menu li.active-trail a.active-trail
+	 {
 		padding-left: 15px;
 		background-image: url('../images/linkbutton.jpg');
 		background-repeat: no-repeat;
@@ -277,7 +294,9 @@ div.status, table tr.ok
 
 	}
 	
-	#block-system-main-menu .block-inner .content ul.menu li.active-trail ul li.active-trail a.active-trail {
+	#block-system-main-menu .block-inner .content ul.menu li.active-trail ul li.active-trail a.active-trail,
+	#block-menu-menu-mitgliederbereich .content ul.menu li.active-trail ul li.active-trail a.active-trail
+	 {
 			padding-left: 15px;
 			background-image: url('../images/linkbutton.jpg');
 			background-repeat: no-repeat;
@@ -287,7 +306,8 @@ div.status, table tr.ok
 	
 		}
 	
-	#block-system-main-menu .block-inner .content ul.menu li.active-trail ul li a 
+	#block-system-main-menu .block-inner .content ul.menu li.active-trail ul li a,
+	#block-menu-menu-mitgliederbereich .content ul.menu li.active-trail ul li a 
 	{
 		padding-left: 15px;
 		text-transform: none !important;
@@ -419,7 +439,7 @@ div.status, table tr.ok
 		
 	}
 	
-	#zone-postscript-wrapper #zone-postscript .region-postscript-first #block-menu-block-1 {
+	#zone-postscript-wrapper #zone-postscript .region-postscript-first #block-menu-menu-mitgliederbereich-block-1 {
 		padding: 10px 0 0 15px;
 	}
 	
@@ -550,7 +570,10 @@ tr.odd:hover td.active
 	
 	.views-row .node-news,
 	.views-row .node-team,
-	body.page-taxonomy-term article.node
+	body.page-taxonomy-term article.node,
+	.view-jobangebote .views-row,
+	.view-ob-news .views-row,
+	.node-mb-forum-mitgliederbereich /* MB: Forum */
 	{
 		margin-bottom: 20px;
 		padding-bottom: 20px;
@@ -559,7 +582,10 @@ tr.odd:hover td.active
 
 	
 	.node-news h2, /*termine */
-	body.page-taxonomy-term article.node h2 a /* Überschrift taxonomy term page ==> tags */
+	body.page-taxonomy-term article.node h2 a, /* Überschrift taxonomy term page ==> tags */
+	.node-mb-jobangebote-mitgliederbereich h2 a, /* Überschrift Jobangebote View */
+	.node-article h2, /*news*/
+	.node-mb-forum-mitgliederbereich h2 a/* MB: Forum */
 	{
 		color: #c9a900;
 		margin-bottom: 0;
@@ -568,7 +594,10 @@ tr.odd:hover td.active
 	}
 	
 	body.page-taxonomy-term article.node h2,
-	.node-news h2
+	.node-news h2,
+	.node-article h2,
+	.node-mb-jobangebote-mitgliederbereich h2, /* Überschrift Jobangebote View */
+	.node-mb-forum-mitgliederbereich h2
 	
 	{
 		font-size: 1.125em;
@@ -580,19 +609,29 @@ tr.odd:hover td.active
 	}
 	
 	.field-name-field-termine-datum span.date-display-single,
-	.field-name-field-termine-subtitle div div
+	.field-name-field-subtitle div div,
+	.field-name-field-termine-subtitle div div,
+	.field-name-field-tags div
 	{
 		font-size: .9em;
 		color: #262626;
 		font-weight: bold;
 	}
 	
-	.field-name-field-termine-subtitle div div
+	.field-name-field-tags div.field-items div.field-item a
+	{
+		color: #c9a900;
+	}
+
+	.field-name-field-termine-subtitle div div,
+	.field-name-field-subtitle div div
 	{
 		margin-bottom: 15px;
 	}
 	
-	.view-news .field-name-body p
+	.view-news .field-name-body p,
+	.view-jobangebote .field-name-body p,
+	.view-ob-news .field-name-bodyp
 	{
 		margin-bottom: 0px;
 	}
@@ -635,14 +674,17 @@ tr.odd:hover td.active
 		background: url('../images/arrow_grey_right.png') no-repeat 69px center !important;
 			}
 	
-	.node-news.ds-2col-stacked-fluid
+	.node-news.ds-2col-stacked-fluid,
+	.node-article.ds-2col-stacked-fluid,
+	body.node-type-mb-jobangebote-mitgliederbereich .block-system-main
 	{
 		margin-bottom: 30px;
 		padding-bottom: 15px;
 		background: url('../images/bg_news.jpg') no-repeat left bottom;
 	}
 	
-	.field-name-field-files div div span a
+	.field-name-field-files div div span a,
+	body.node-type-mb-jobangebote-mitgliederbereich .block-system-main .field-name-field-doument-laden-jobangebot a
 	{
 		color: #c9a900;
 		font-size: 0.75em;
