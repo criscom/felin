@@ -573,7 +573,8 @@ tr.odd:hover td.active
 	body.page-taxonomy-term article.node,
 	.view-jobangebote .views-row,
 	.view-ob-news .views-row,
-	.node-mb-forum-mitgliederbereich /* MB: Forum */
+	.node-mb-forum-mitgliederbereich, /* MB: Forum */
+	.view-termine-mitgliederbereich .views-row /* MB: Termine */
 	{
 		margin-bottom: 20px;
 		padding-bottom: 20px;
@@ -585,7 +586,8 @@ tr.odd:hover td.active
 	body.page-taxonomy-term article.node h2 a, /* Überschrift taxonomy term page ==> tags */
 	.node-mb-jobangebote-mitgliederbereich h2 a, /* Überschrift Jobangebote View */
 	.node-article h2, /*news*/
-	.node-mb-forum-mitgliederbereich h2 a/* MB: Forum */
+	.node-mb-forum-mitgliederbereich h2 a, /* MB: Forum */
+	.node-mb-termine-mitgliederbereich h2
 	{
 		color: #c9a900;
 		margin-bottom: 0;
@@ -597,7 +599,8 @@ tr.odd:hover td.active
 	.node-news h2,
 	.node-article h2,
 	.node-mb-jobangebote-mitgliederbereich h2, /* Überschrift Jobangebote View */
-	.node-mb-forum-mitgliederbereich h2
+	.node-mb-forum-mitgliederbereich h2,
+	.node-mb-termine-mitgliederbereich h2
 	
 	{
 		font-size: 1.125em;
@@ -631,7 +634,8 @@ tr.odd:hover td.active
 	
 	.view-news .field-name-body p,
 	.view-jobangebote .field-name-body p,
-	.view-ob-news .field-name-bodyp
+	.view-ob-news .field-name-body p,
+	.view-termine-mitgliederbereich .field-name-body p
 	{
 		margin-bottom: 0px;
 	}
